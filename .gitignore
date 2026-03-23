@@ -403,3 +403,4 @@ FodyWeavers.xsd
 # Personal ignores
 Properties/
 *.csproj
+*.sln
