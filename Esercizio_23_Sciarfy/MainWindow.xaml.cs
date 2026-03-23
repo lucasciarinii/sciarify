@@ -98,6 +98,15 @@ namespace Esercizio_23_Sciarfy
             isMainSeeking = false;
         }
 
+        // Dragging
+        private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+            {
+                this.DragMove();
+            }
+        }
+
         // Favourite page
         private void GoFavouritePageBTN_Click(object sender, RoutedEventArgs e)
         {
